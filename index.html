@@ -74,8 +74,9 @@
       <!-- call to action -->
       <article class="cta">
         <div class="cta-text">
-          <h3>SUBSCRIBB</h3>
-          <p>Love traveling? Consider subscribing!</p>
+          <h3>Love to see the World?</h3>
+          <p>Want to know more about the culture and food out there?</p>
+          <p>consider Subscribing!</p>
         </div>
 
         <!-- subscribe form - call to action -->
@@ -106,16 +107,20 @@
       </article>
 
       <!-- 1 by 3 card main section -->
-      <h2>Recent Travel Posts</h2>
+      <h2>Popular Travel Posts</h2>
       <h3>for all your curiousities!</h3>
       <section class="blog-cards">
         <article class="3-card-grid">
           <div class="card card1">
-            <h4>title here</h4>
-            <p>
-              description here, i wonder if i can import part of the blog post?
-            </p>
-            <img src="link" alt="descibe." />
+            <div>
+              <h4>Santiago, Chile</h4>
+              <p>
+                description here, i wonder if i can import part of the blog
+                post?
+              </p>
+              <a href="blog.html"><img src="link" alt="descibe." /></a>
+            </div>
+            <div><a href="blog.html">Read More...</div></a>
           </div>
           <div class="card card2">
             <h4>title here</h4>
@@ -139,14 +144,37 @@
     <footer>
       <div class="left-footer">
         <div class="cta-2">
-          <p>consider subscribbing</p>
+          <p>consider subscribing!</p>
+          <div>
+            <form action="https://formspree.io/f/mdkoojyv" method="POST">
+              <label>
+                Your email:
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="youremail@gmail.com"
+                />
+              </label>
+              <label>
+                Your name:
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John/ Jane"
+                />
+              </label>
+              <!-- your other form fields go here -->
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
-        <p>text goes under cta2</p>
       </div>
       <div>
         <nav>
           <ul>
-            <li>Blog Posts</li>
+            <li>Blog Post</li>
             <li>Gallery</li>
             <li>Contact</li>
           </ul>
