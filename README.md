@@ -10,6 +10,7 @@ I will later deploy it to github pages once it is in good condition. Until then,
 ## Attributions
 
 images taken from [freepik](https://www.freepik.com)
+
 form from [formspree](https://formspree.io)
 
 ## Technologies
