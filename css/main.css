@@ -6,6 +6,35 @@
   --secondary-backdrop: #251b12;
   --accent-color: #7da3b4;
 }
+
+/* universal styling for all htmls */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(255, 245, 232);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playwrite GB S", sans-serif;
+}
+
+p,
+li {
+  font-family: "Raleway";
+}
+
+/* header styling */
+header {
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  place-items: center;
+  background-color: var(--secondary-backdrop);
+}
+header h1 {
+  color: var(--sedondary-text-color);
 }
