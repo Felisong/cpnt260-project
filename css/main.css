@@ -1,0 +1,11 @@
+:root {
+  --primary-backdrop: #702e2e;
+  --primary-text-color: #240000;
+  --sedondary-text-color: #ffffff;
+  --header-text-color: #ffae00;
+  --secondary-backdrop: #251b12;
+  --accent-color: #7da3b4;
+}
+body {
+  background-color: rgb(255, 245, 232);
+}
