@@ -1,9 +1,10 @@
 :root {
   --primary-backdrop: #702e2e;
   --primary-text-color: #240000;
-  --sedondary-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
   --header-text-color: #ffae00;
-  --secondary-backdrop: #251b12;
+  --secondary-backdrop: #3d1b1b;
+  --accent-backdrop: #200b0b;
   --accent-color: #7da3b4;
 }
 
@@ -30,11 +31,49 @@ li {
 
 /* header styling */
 header {
-  display: grid;
-  grid-template: repeat(3, 1fr) / 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   place-items: center;
   background-color: var(--secondary-backdrop);
 }
 header h1 {
-  color: var(--sedondary-text-color);
+  display: none;
+  color: var(--secondary-text-color);
+  font-size: 38px;
+}
+header li {
+  color: var(--secondary-text-color);
+}
+
+header .logo-container {
+  background-color: var(--accent-backdrop);
+  width: 10rem;
+  padding: 2rem;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* Tablet View */
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  header h1 {
+    display: block;
+  }
+}
+
+/* Desktop View */
+@media screen and (min-width: 1024px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  header h1 {
+    display: block;
+  }
 }
