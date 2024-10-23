@@ -6,6 +6,7 @@
   --secondary-backdrop: #3d1b1b;
   --accent-backdrop: #200b0b;
   --accent-color: #7da3b4;
+  --orange-backdrop: #ffd4ac;
 }
 
 /* universal styling for all htmls */
@@ -17,15 +18,16 @@
 body {
   background-color: rgb(255, 245, 232);
 }
-h1,
-h2,
-h3,
-h4 {
+header h1,
+h2 {
   font-family: "Playwrite GB S", sans-serif;
+  color: var(--header-text-color);
 }
 
 p,
-li {
+li,
+h3,
+h4 {
   font-family: "Raleway";
 }
 
@@ -68,6 +70,7 @@ header .burger-nav {
 header .header-nav {
   display: none;
 }
+
 /* Tablet View */
 
 @media screen and (min-width: 425px) and (max-width: 1024px) {
