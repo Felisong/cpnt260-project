@@ -1,3 +1,4 @@
+/* hero section.  */
 .hero {
   display: block;
   margin: 1rem;
@@ -20,6 +21,26 @@
 
 main img {
   border-radius: 12px;
+}
+
+/* CTA of page */
+.cta {
+  background-color: var(--blue-backdrop);
+  color: var(--secondary-text-color);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+}
+/* header of the cta */
+.cta h3 {
+  font-family: "Playwrite GB S", sans-serif;
+  color: var(--header-text-color);
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+/* paragraph for form of cta */
+.cta-text {
+  margin-bottom: 1rem;
 }
 /* Tablet View */
 
