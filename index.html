@@ -149,6 +149,7 @@
 
       <!-- call to action -->
       <article class="cta">
+        <div class="cta-container">
         <div class="cta-text">
           <h3>Love to see the World?</h3>
           <p>Want to know more about the culture and food out there?</p>
@@ -158,8 +159,9 @@
         <!-- subscribe form - call to action -->
         <div class="form-container">
           <form action="https://formspree.io/f/mdkoojyv" method="POST">
-            <label>
+            <label class="label-email">
               Your email:
+              <br>
               <input
                 type="email"
                 name="email"
@@ -167,8 +169,10 @@
                 placeholder="youremail@gmail.com"
               />
             </label>
-            <label>
+            <br>
+            <label class="label-name">
               Your name:
+              <br>
               <input
                 type="text"
                 name="name"
@@ -176,9 +180,11 @@
                 placeholder="John/ Jane"
               />
             </label>
+            <br>
             <!-- your other form fields go here -->
-            <button type="submit">Send</button>
+            <button class="submit-button" type="submit">Send</button>
           </form>
+        </div>
         </div>
       </article>
 
