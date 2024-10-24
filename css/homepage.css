@@ -75,12 +75,30 @@
   background-color: var(--blue-backdrop);
   color: var(--secondary-text-color);
   margin: 1rem;
-  padding: 1rem;
   border-radius: 12px;
+  padding: 1rem;
 }
 .reverse {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.card img {
+  border-radius: 12px;
+  margin: 0;
+}
+.card-link {
+  color: var(--link-color);
+  font-size: 1rem;
+  background-color: var(--primary-text-color);
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 12px;
+}
+.card-header {
+  color: var(--header-text-color);
+  margin: 1rem auto;
 }
 
 /* Tablet View */
@@ -100,6 +118,10 @@
     width: 80%;
     margin: 1rem auto;
   }
+  .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 /* Desktop View */
 @media screen and (min-width: 1024px) {
@@ -116,5 +138,11 @@
   .cta {
     width: 50%;
     margin: 1rem auto;
+  }
+  .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
   }
 }
