@@ -8,6 +8,7 @@
   --accent-color: #5da9cc;
   --blue-backdrop: #223246;
   --orange-backdrop: #ffd4ac;
+  --hero-backdrop: #15223196;
 }
 
 /* universal styling for all htmls */
@@ -76,7 +77,7 @@ header .header-nav {
 
 /* Tablet View */
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (min-width: 425px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
   header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
