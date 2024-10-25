@@ -100,7 +100,7 @@ footer {
 }
 footer input {
   margin: 0.2rem;
-  width: 70%;
+  width: 80%;
 }
 footer button {
   background-color: var(--accent-color);
@@ -131,6 +131,7 @@ footer .left-footer,
 .right-footer {
   margin: 1rem;
 }
+
 /* Tablet View */
 
 @media screen and (min-width: 431px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
@@ -156,6 +157,7 @@ footer .left-footer,
 }
 
 /* Desktop View */
+
 @media screen and (min-width: 1024px) {
   main {
     min-height: calc(100vh - 500px);

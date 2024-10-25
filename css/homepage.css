@@ -70,9 +70,9 @@
   background-color: var(--accent-color);
   width: 15%;
 }
-input {
+.cta input {
   border-radius: 6px;
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 
@@ -137,6 +137,9 @@ input {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 5rem;
   }
+  .cta input {
+    width: 40%;
+  }
 }
 /* Desktop View */
 @media screen and (min-width: 1024px) {
@@ -159,5 +162,8 @@ input {
     grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
     margin: auto;
+  }
+  .cta input {
+    width: 35%;
   }
 }
