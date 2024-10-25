@@ -3,3 +3,16 @@
   font-family: "Playwrite GB S";
   color: var(--primary-text-color);
 }
+
+/* card stylization */
+.cards {
+  background-image: linear-gradient(to bottom, #1c5a83, #02060e);
+}
+.card-header {
+  font-family: "Playwrite GB S";
+  color: var(--header-text-color);
+}
+.card-descript {
+}
+.card-link {
+}

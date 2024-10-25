@@ -107,31 +107,45 @@
       </nav>
     </header>
 
-    <main>
+    <main class="items-center">
       <section class="hero-text">
         <h1 class="text-6xl text-center m-9">Gallery</h1>
-        <p>
-          Welcome to the gallery page of my travel blog, where adventure comes
-          to life through stunning visuals! Here, you'll find a curated
-          collection of breathtaking photographs capturing the essence of my
-          journeys around the world. From vibrant cityscapes and serene
-          landscapes to cultural experiences and unforgettable moments, each
-          image tells a story of exploration and discovery. Join me as we wander
-          through these captivating scenes, and let them inspire your own
-          wanderlust!
-        </p>
+        <div class="main-paragraph text-center m-9">
+          <p>
+            Welcome to the gallery page of my travel blog, where adventure comes
+            to life through stunning visuals!
+          </p>
+          <p>
+            Here, you'll find a curated collection of breathtaking photographs
+            capturing the essence of my journeys around the world. From vibrant
+            cityscapes and serene landscapes to cultural experiences and
+            unforgettable moments, each image tells a story of exploration and
+            discovery.
+          </p>
+          <p>
+            Join me as we wander through these captivating scenes, and let them
+            inspire your own wanderlust!
+          </p>
+        </div>
       </section>
       <section
-        class="gallery-grid grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:grid-rows-5 lg:grid-rows-4"
+        class="gallery-grid grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:grid-rows-5 lg:grid-rows-4 max-w-[90%]"
       >
         <div
-          class="card-1 flex flex-col-reverse h-50 w-72 bg-blue-200 justify-end sm:mx-4 rounded"
+          class="card-1 cards flex flex-col-reverse bg-blue-200 justify-end sm:mx-4 rounded-2xl h-[28rem]"
         >
-          <a href=""> visit here...</a>
-          <p>The views here are amazing, you are in the thick of it.</p>
-          <h3>Canada</h3>
+          <a
+            href=""
+            class="card-link text-center mx-auto p-3 bg-blue-100 w-fit rounded-2xl hover:bg-blue-50 hover:text-blue-600"
+          >
+            visit here...</a
+          >
+          <p class="card-descript text-center p-4 text-white">
+            The views here are amazing, you are in the thick of it.
+          </p>
+          <h3 class="card-header text-center text-3xl p-2">Canada</h3>
           <img
-            class=""
+            class="rounded-t-xl"
             src="assets/beautiful-forest-canada.jpg"
             alt="A beautiful view of forest, there is a river in between the bushes and leaves. It is illuminated by the sun that slips in between the trees' shadow."
           />
@@ -234,7 +248,7 @@
         </div>
       </section>
       <!-- footer of page -->
-      <footer class="flex justify-around items-center">
+      <footer class="flex justify-around items-center w-full">
         <div class="left-footer">
           <div class="cta-2">
             <p>consider subscribing!</p>
