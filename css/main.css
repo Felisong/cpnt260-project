@@ -40,7 +40,7 @@ header {
   justify-content: center;
   place-items: center;
   background-color: var(--secondary-backdrop);
-  height: 30vh;
+  height: 40vh;
 }
 header h1 {
   display: none;
@@ -95,12 +95,12 @@ footer {
 }
 footer input {
   margin: 0.2rem;
-  width: 60%;
+  width: 70%;
 }
 footer button {
   background-color: var(--accent-color);
   padding: 5px;
-  margin: 8px;
+
   border-radius: 12px;
   width: 60px;
   color: var(--primary-text-color);
@@ -128,12 +128,13 @@ footer .left-footer,
 }
 /* Tablet View */
 
-@media screen and (min-width: 425px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (min-width: 431px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
   header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
     padding-left: 2rem;
+    height: 20vh;
   }
   header h1 {
     display: block;
@@ -152,6 +153,7 @@ footer .left-footer,
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 2rem;
+    height: 20vh;
   }
   header h1 {
     display: block;

@@ -84,7 +84,6 @@ input {
   border-radius: 12px;
   padding: 1rem;
   height: 530px;
-  margin-bottom: 5rem;
 }
 .reverse {
   display: flex;
@@ -136,6 +135,7 @@ input {
   .blog-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
   }
 }
 /* Desktop View */
