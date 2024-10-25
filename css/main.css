@@ -72,11 +72,13 @@ header .header-nav .nav-buttons .current {
 header .logo-container {
   background-color: var(--accent-backdrop);
   width: 10rem;
-  padding: 2rem;
   border-radius: 100%;
   margin: 1rem;
+  height: 10rem;
 }
-
+header .logo-container img {
+  width: 80%;
+}
 header .burger-nav {
   width: 4rem;
   margin-bottom: 1rem;
