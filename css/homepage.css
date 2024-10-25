@@ -68,6 +68,12 @@
 }
 .submit-button {
   background-color: var(--accent-color);
+  width: 15%;
+}
+input {
+  border-radius: 6px;
+  width: 40%;
+  text-align: center;
 }
 
 /* 3 CARD SECTION */
@@ -108,11 +114,6 @@
 .card-header {
   color: var(--header-text-color);
   margin: 1rem auto;
-}
-input {
-  border-radius: 8px;
-  width: 40%;
-  text-align: center;
 }
 
 /* Tablet View */
