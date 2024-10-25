@@ -40,6 +40,7 @@ header {
   justify-content: center;
   place-items: center;
   background-color: var(--secondary-backdrop);
+  height: 30vh;
 }
 header h1 {
   display: none;
@@ -59,6 +60,14 @@ header .header-nav .nav-buttons {
   border-radius: 12px;
   color: var(--primary-text-color);
   text-align: center;
+  transition: all 0.2s ease-out;
+}
+header .header-nav .nav-buttons:hover {
+  transform: scale(1.05);
+  border: 2px solid var(--header-text-color);
+}
+header .header-nav .nav-buttons .current {
+  color: rgb(255, 255, 255);
 }
 header .logo-container {
   background-color: var(--accent-backdrop);
