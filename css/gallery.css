@@ -1,0 +1,5 @@
+/* Main section */
+.hero-text h1 {
+  font-family: "Playwrite GB S";
+  color: var(--primary-text-color);
+}
