@@ -109,6 +109,11 @@ footer button {
   border-radius: 12px;
   width: 60px;
   color: var(--primary-text-color);
+  transition: all 0.2s ease-out;
+}
+footer button:hover {
+  transform: scale(1.05);
+  border: 2px solid var(--header-text-color);
 }
 footer .footer-nav .nav-buttons {
   background-color: var(--accent-color);
