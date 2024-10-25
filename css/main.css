@@ -88,9 +88,42 @@ header .header-nav {
 /* FOOTER SECTION */
 footer {
   background-color: var(--accent-backdrop);
-  height: 40vh;
+  height: 30vh;
+  color: var(--secondary-text-color);
 }
-
+footer input {
+  margin: 0.2rem;
+  width: 60%;
+}
+footer button {
+  background-color: var(--accent-color);
+  padding: 5px;
+  margin: 8px;
+  border-radius: 12px;
+  width: 60px;
+  color: var(--primary-text-color);
+}
+footer .footer-nav .nav-buttons {
+  background-color: var(--accent-color);
+  font-size: 24px;
+  padding: 5px;
+  margin: 8px;
+  border-radius: 12px;
+  color: var(--primary-text-color);
+  text-align: center;
+  transition: all 0.2s ease-out;
+}
+footer .footer-nav .nav-buttons:hover {
+  transform: scale(1.05);
+  border: 2px solid var(--header-text-color);
+}
+footer .footer-nav .nav-buttons .current {
+  color: rgb(255, 255, 255);
+}
+footer .left-footer,
+.right-footer {
+  margin: 1rem;
+}
 /* Tablet View */
 
 @media screen and (min-width: 425px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
