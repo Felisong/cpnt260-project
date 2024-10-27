@@ -12,7 +12,12 @@
   font-family: "Playwrite GB S";
   color: var(--header-text-color);
 }
-.card-descript {
+.gallery-grid {
+  margin-bottom: 4rem;
 }
-.card-link {
+
+/* Desktop View */
+@media screen and (min-width: 1024px) {
+  .gallery-grid {
+  }
 }
