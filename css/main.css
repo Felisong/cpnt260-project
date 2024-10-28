@@ -102,7 +102,6 @@ footer input {
   margin: 0.2rem;
   width: 80%;
   color: var(--primary-text-color);
-  padding-left: 2px;
 }
 footer button {
   background-color: var(--accent-color);
@@ -117,22 +116,24 @@ footer button:hover {
   transform: scale(1.05);
   border: 2px solid var(--header-text-color);
 }
-footer .footer-nav .nav-buttons {
+footer ul {
   background-color: var(--accent-color);
+  border-radius: 4px;
+}
+footer .footer-nav .nav-buttons {
   font-size: 24px;
   padding: 5px;
   margin: 8px;
   border-radius: 12px;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   text-align: center;
   transition: all 0.2s ease-out;
 }
 footer .footer-nav .nav-buttons:hover {
   transform: scale(1.05);
-  border: 2px solid var(--header-text-color);
 }
 footer .footer-nav .nav-buttons .current {
-  color: rgb(255, 255, 255);
+  color: var(--primary-text-color);
 }
 footer .left-footer,
 .right-footer {
