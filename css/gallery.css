@@ -22,24 +22,39 @@
   .hero-text {
     width: 40%;
   }
-  .gallery-grid {
-    margin-bottom: 4rem;
-  }
-  .gallery-grid a {
-    display: block;
-  }
-  .gallery-grid a .cards {
-    transition: all 0.2s ease-out;
-  }
-  .gallery-grid a .cards:hover {
-    transform: scale(1.05);
-    border: 2px solid var(--header-text-color);
-  }
+}
 
-  /* DESKTOP VIEW */
-  @media screen and (min-width: 1024px) {
-    .hero-text {
-      width: 45%;
-    }
+/* Main section */
+.hero-text h1 {
+  font-family: "Playwrite GB S";
+  color: var(--primary-text-color);
+}
+
+/* card stylization */
+.cards {
+  background-image: linear-gradient(to bottom, #1c5a83, #02060e);
+}
+.card-header {
+  font-family: "Playwrite GB S";
+  color: var(--header-text-color);
+}
+.gallery-grid {
+  margin-bottom: 4rem;
+}
+.gallery-grid a {
+  display: block;
+}
+.gallery-grid a .cards {
+  transition: all 0.2s ease-out;
+}
+.gallery-grid a .cards:hover {
+  transform: scale(1.05);
+  border: 2px solid var(--header-text-color);
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1024px) {
+  .hero-text {
+    width: 45%;
   }
 }
