@@ -49,9 +49,20 @@ textarea {
 }
 /* Tablet View */
 
-@media screen and (min-width: 431px) and (max-width: 1024px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (min-width: 431px) and (max-width: 1024px) {
   .text-sect {
+    width: 60%;
+  }
+  .contact-box {
+    display: flex;
+    flex-direction: column;
     width: 70%;
+    margin: 0 auto;
+    height: 35rem;
+  }
+  .contact-box img {
+    width: 30%;
+    margin: 0 auto;
   }
 }
 
@@ -61,5 +72,38 @@ textarea {
   .text-sect {
     width: 50%;
     margin: 1rem auto;
+  }
+  .contact-box {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: 30% 1fr;
+    grid-template-areas:
+      "title title"
+      "form palm-tree";
+    width: 60%;
+    margin: 0 auto;
+    height: 30rem;
+  }
+  .contact-box h3 {
+    grid-area: title;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  .contact-box input,
+  textarea {
+    border-radius: 6px;
+    width: 80%;
+    max-width: 400px;
+    text-align: start;
+  }
+  .contact-box form {
+    text-align: start;
+    width: 100%;
+    grid-area: form;
+  }
+  .contact-box img {
+    grid-area: palm-tree;
+    width: 80%;
   }
 }
