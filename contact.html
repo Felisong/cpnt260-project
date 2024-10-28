@@ -35,13 +35,13 @@
   <nav class="header-nav">
     <ul>
       <li class="nav-buttons">
-        <a href="index.html" class="current">Home</a>
+        <a href="index.html">Home</a>
       </li>
       <li class="nav-buttons">
         <a href="gallery.html">Gallery</a>
       </li>
       <li class="nav-buttons">
-        <a href="contact.html"> Contact</a>
+        <a href="contact.html"  class="current"> Contact</a>
       </li>
     </ul>
   </nav>
@@ -101,8 +101,8 @@
 
     <!-- main section -->
     <section>
-      <div class="text-sect">
-      <h1>Contact Me!</h1>
+      <div class="text-sect flex m-4 flex-col">
+      <h1 class="text-6xl text-center m-9"> Contact Me!</h1>
       <p>Thank you for visiting my travel blog! I love connecting with fellow
       travel enthusiasts and sharing experiences. If you have any questions,
       suggestions, or just want to share your own travel stories, I would love
@@ -117,21 +117,27 @@
 
     <!-- FORM HERE -->
     <article>
-      <div>
+      <div class="contact-box">
         <h3> Please fill in your information </h2>
         <form action="https://formspree.io/f/xyzyzwbz" method="POST">
           <label>
             Your email:
+            <br>
             <input type="email" name="email" />
           </label>
+          <br>
           <label>
             Your name:
+            <br>
             <input type="name" name="name" />
           </label>
+          <br>
           <label>
             Your message:
+            <br>
             <textarea name="message"></textarea>
           </label>
+          <br>
           <button type="submit">Send</button>
         </form>
         <div>
