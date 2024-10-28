@@ -12,23 +12,34 @@
   font-family: "Playwrite GB S";
   color: var(--header-text-color);
 }
+
+/* gallery customization */
 .gallery-grid {
   margin-bottom: 4rem;
 }
-.gallery-grid a {
-  display: block;
-}
-.gallery-grid a .cards {
-  transition: all 0.2s ease-out;
-}
-.gallery-grid a .cards:hover {
-  transform: scale(1.05);
-  border: 2px solid var(--header-text-color);
-}
 
-/* DESKTOP VIEW */
 @media screen and (min-width: 1024px) {
   .hero-text {
-    width: 45%;
+    width: 40%;
+  }
+  .gallery-grid {
+    margin-bottom: 4rem;
+  }
+  .gallery-grid a {
+    display: block;
+  }
+  .gallery-grid a .cards {
+    transition: all 0.2s ease-out;
+  }
+  .gallery-grid a .cards:hover {
+    transform: scale(1.05);
+    border: 2px solid var(--header-text-color);
+  }
+
+  /* DESKTOP VIEW */
+  @media screen and (min-width: 1024px) {
+    .hero-text {
+      width: 45%;
+    }
   }
 }
