@@ -16,7 +16,7 @@ form from [formspree](https://formspree.io)
 ## Technologies
 
 - CSS
-  -HTML
+- HTML
 
 ## Want to use this Repository for personal use?
 

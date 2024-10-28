@@ -94,6 +94,7 @@ header .header-nav {
 
 /* FOOTER SECTION */
 footer {
+  width: 100vw;
   background-color: var(--accent-backdrop);
   height: 300px;
   color: var(--secondary-text-color);
