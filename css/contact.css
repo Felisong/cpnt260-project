@@ -42,6 +42,7 @@ textarea {
   width: 50%;
   text-align: center;
   margin: 6px;
+  color: var(--primary-text-color);
 }
 .contact-box img {
   width: 50%;
@@ -97,6 +98,7 @@ textarea {
     width: 80%;
     max-width: 400px;
     text-align: start;
+    padding-left: 4px;
   }
   .contact-box form {
     text-align: start;
