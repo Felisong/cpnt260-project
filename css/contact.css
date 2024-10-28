@@ -71,9 +71,8 @@ textarea {
 @media screen and (min-width: 1024px) {
   .text-sect {
     display: flex;
-    justify-content: center;
     width: 50%;
-    margin: 1rem auto;
+    margin: auto;
   }
   .contact-box {
     display: grid;

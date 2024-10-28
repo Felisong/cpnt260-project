@@ -92,6 +92,11 @@ header .header-nav {
   display: none;
 }
 
+/* Universal text in inputs color */
+input {
+  color: var(--primary-text-color);
+}
+
 /* FOOTER SECTION */
 footer {
   background-color: var(--accent-backdrop);
