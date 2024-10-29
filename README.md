@@ -5,7 +5,7 @@ The goal is to do this with only HTML and CSS for now. To make it a functional w
 
 ## A Travel Blog
 
-I will later deploy it to github pages once it is in good condition. Until then, it will stay as a repository.
+It is now deployed and available to see [here](https://felisong.github.io/cpnt260-project/)
 
 ## Attributions
 
